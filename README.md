@@ -22,12 +22,12 @@ The app features a side-by-side layout where users can input code on the left si
 Local images/scripts/etc will work relative to the app folder and by a direct file path.
 
 **Example of a relative path if placing LiveCodePreviewer.exe in your project folder:**
-c:\folder\LiveCodePreviewer.exe
-c:\folder\my_image.png or c:\folder\images\my_image.png
-In your html code img source you would put src="my_image.png" or src="images/my_image.png"
+- c:\folder\LiveCodePreviewer.exe
+- c:\folder\my_image.png or c:\folder\images\my_image.png
+- In your html code img source you would put src="my_image.png" or src="images/my_image.png"
 
 **Example of absolute paths in HTML:**
-In your html img source you can put src="c://folder/my_image.png" or src="c://other_folder/sub_folder/my_image.png"
+- In your html img source you can put src="c://folder/my_image.png" or src="c://other_folder/sub_folder/my_image.png"
 
 ## Installation
 
