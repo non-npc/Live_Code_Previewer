@@ -18,7 +18,6 @@ class MainWindow(QMainWindow):
         layout = QVBoxLayout(central_widget)
 
         menu_bar = self.menuBar()
-
         file_menu = menu_bar.addMenu('File')
 
         quit_action = QAction('Quit', self)
@@ -105,8 +104,6 @@ class MainWindow(QMainWindow):
 
     def load_html(self):
         body_content = self.text_area.toPlainText()
-
-        # Inject body content into the base HTML and keep the grey border
         html_with_body = '''
         <!DOCTYPE html>
         <html lang="en">
@@ -143,9 +140,7 @@ class MainWindow(QMainWindow):
             if self.dev_tools is None or not self.dev_tools.isVisible():
                 self.dev_tools = QWebEngineView()
                 self.webview.page().setDevToolsPage(self.dev_tools.page())
-                
                 self.dev_tools.closeEvent = self.cleanup_devtools
-
                 self.dev_tools.show()
         else:
             if self.dev_tools is not None:
@@ -167,7 +162,13 @@ class MainWindow(QMainWindow):
         QApplication.quit()
 
     def show_about(self):
-        QMessageBox.about(self, "About", "Live Code Previewer\nVersion 1.0\nCreated by non-npc Sep/12/2024")
+        about_text = """
+        <h2>Live Code Previewer</h2>
+        <p>Version 1.0.1</p>
+        <p>Created by non-npc</p>
+        <p><small><a href='https://github.com/non-npc/Live_Code_Previewer'>https://github.com/non-npc/Live_Code_Previewer</a></small></p>
+        """
+        QMessageBox.about(self, "About", about_text)
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
