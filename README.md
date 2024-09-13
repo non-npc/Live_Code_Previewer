@@ -52,25 +52,6 @@ pip install PyQt5 PyQtWebEngine
 
 5. To manually update the preview, enter your code in the text area and click "Load in Webview."
 
-## Example
-
-Here’s a simple example you can try in the text area to get started:
-
-\`\`\`html
-<h1>Hello, World!</h1>
-<p>This is a live HTML previewer!</p>
-
-<style>
-    h1 {
-        color: blue;
-    }
-</style>
-
-<script>
-    console.log("JavaScript is working!");
-</script>
-\`\`\`
-
 ## File Structure
 
 \`\`\`
