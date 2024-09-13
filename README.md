@@ -27,6 +27,7 @@ Local images/scripts/etc will work relative to the app folder and by a direct fi
 - In your html code img source you would put src="my_image.png" or src="images/my_image.png"
 
 **Example of absolute paths in HTML:**
+- This Does not require moving LiveCodePreviewer.exe
 - In your html img source you can put src="c://folder/my_image.png" or src="c://other_folder/sub_folder/my_image.png"
 
 ## Installation
