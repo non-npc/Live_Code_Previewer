@@ -2,3 +2,4 @@ build/
 dist/
 output/
 main.spec
+setup_script.iss
