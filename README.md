@@ -32,7 +32,11 @@ Local images/scripts/etc will work relative to the app folder and by a direct fi
 
 ## Installation
 
-To run the **Live Code Previewer**, you need to have Python 3 installed on your system. Additionally, you will need to install the following dependencies:
+Download and install the windows 10 executable version of the **Live Code Previewer**:
+- [previewer_setup-v1.0.1.exe](https://github.com/non-npc/Live_Code_Previewer/releases/download/v1.0.1-master/previewer_setup-v1.0.1.exe) 109mb.
+- [previewer_setup-v1.0.1.zip](https://github.com/non-npc/Live_Code_Previewer/releases/download/v1.0.1-master/previewer_setup-v1.0.1.zip) 109mb.
+
+To run python version of the **Live Code Previewer**, you need to have Python 3 installed on your system. Additionally, you will need to install the following dependencies:
 
 1. [PyQt5](https://pypi.org/project/PyQt5/)
 2. [PyQtWebEngine](https://pypi.org/project/PyQtWebEngine/)
