@@ -1,7 +1,7 @@
 
 # Live Code Previewer
 
-**Live Code Previewer** that allows users to write and preview HTML, CSS, and JavaScript code in real-time. 
+**Live Code Previewer** an app that allows users to write and preview HTML, CSS, and JavaScript code in real-time. 
 The app features a side-by-side layout where users can input code on the left side and instantly preview it on the right side in a webview.
 
 ## Screenshot
