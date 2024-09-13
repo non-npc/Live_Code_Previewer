@@ -17,6 +17,18 @@ The app features a side-by-side layout where users can input code on the left si
 - **HTML, CSS, and JavaScript Support**: You can input not just HTML, but also include CSS and JavaScript directly in the text area for live rendering.
 - **Local File Support**: Local images/scripts/etc work relative to the app folder, you can take the EXE and place it in the same folder as your html/css/js projects.
 
+## Local File Support
+
+Local images/scripts/etc will work relative to the app folder and by a direct file path.
+
+**Example of a relative path if placing LiveCodePreviewer.exe in your project folder:**
+c:\folder\LiveCodePreviewer.exe
+c:\folder\my_image.png or c:\folder\images\my_image.png
+In your html code img source you would put src="my_image.png" or src="images/my_image.png"
+
+**Example of absolute paths in HTML:**
+In your html img source you can put src="c://folder/my_image.png" or src="c://other_folder/sub_folder/my_image.png"
+
 ## Installation
 
 To run the **Live Code Previewer**, you need to have Python 3 installed on your system. Additionally, you will need to install the following dependencies:
