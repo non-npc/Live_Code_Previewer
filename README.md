@@ -15,7 +15,7 @@ The app features a side-by-side layout where users can input code on the left si
 - **Debugger**: Enable or disable the debugger.
 - **Manual Update Option**: You can disable live updating by unchecking the "Toggle Live Updating" checkbox. In this mode, the webview is updated only when you click the "Load in Webview" button.
 - **HTML, CSS, and JavaScript Support**: You can input not just HTML, but also include CSS and JavaScript directly in the text area for live rendering.
-- **Local File Support**: Local images/scripts/etc work relative to the app folder, you can take the EXE and place it in the same folder as your html/css/js projects.
+- **Local File Support**: Local images/scripts/etc work relative to the app folder or using absolute paths (see "Local File Support" below for details).
 
 ## Local File Support
 
